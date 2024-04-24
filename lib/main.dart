@@ -23,12 +23,20 @@ class TodoDodo extends StatelessWidget {
         // or simply save your changes to "hot reload" in a Flutter IDE).
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
+        fontFamily: 'Pretendard',
+        textTheme: const TextTheme(
+          bodyText1: TextStyle(fontSize: 14, fontFamily: 'Pretendard', fontWeight: FontWeight.w200),
+          headline1: TextStyle(fontSize: 30, fontWeight: FontWeight.w600),
+          headline2: TextStyle(fontSize: 24, fontWeight: FontWeight.w500),
+          headline3: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
+        ),
         primarySwatch: Colors.blue,
         splashColor: Colors.transparent, // 물결 효과를 없애기 위함
         highlightColor: Colors.transparent, // 물결 효과를 없애기 위함
         splashFactory: NoSplash.splashFactory,
       ),
       home: const MainPage(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
