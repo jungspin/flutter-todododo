@@ -27,8 +27,8 @@ class TodoDodo extends StatelessWidget {
         textTheme: const TextTheme(
           bodyText1: TextStyle(fontSize: 14, fontFamily: 'Pretendard', fontWeight: FontWeight.w200),
           headline1: TextStyle(fontSize: 30, fontWeight: FontWeight.w600),
-          headline2: TextStyle(fontSize: 24, fontWeight: FontWeight.w500),
-          headline3: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
+          headline2: TextStyle(fontSize: 24, fontWeight: FontWeight.w600),
+          headline3: TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
         ),
         primarySwatch: Colors.blue,
         splashColor: Colors.transparent, // 물결 효과를 없애기 위함
